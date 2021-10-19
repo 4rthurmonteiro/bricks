@@ -1,0 +1,8 @@
+name: clean_arc
+description: A new brick created with the Mason CLI.
+vars:
+  - name
+  - has_local_datasource
+  - has_remote_datasource
+  - has_models
+  - has_repositories
