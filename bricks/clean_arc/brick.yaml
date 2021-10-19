@@ -6,3 +6,5 @@ vars:
   - has_remote_datasource
   - has_models
   - has_repositories
+  - use_usecases
+  - has_pages
