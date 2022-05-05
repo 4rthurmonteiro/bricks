@@ -1,1 +1,1 @@
-{"bricks":{"hello":"0.1.0+1","clean_arc":{"path":"./bricks/clean_arc"}}}
+{"bricks":{"hello":"0.1.0+1","clean_arc":{"path":"./bricks/clean_arc"},"clean_package_feature":{"path":"./bricks/clean_package_feature"}}}
