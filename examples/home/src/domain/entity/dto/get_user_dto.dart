@@ -1,4 +1,4 @@
-import package:equatable&#x2F;equatable.dart;
+import 'package:core/core.dart';
 
 class GetUserDto extends Equatable {
   final String dummy; // example 

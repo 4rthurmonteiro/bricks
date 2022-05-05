@@ -4,7 +4,7 @@ description: A new brick created with the Mason CLI.
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+1
+version: 0.1.1
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -29,8 +29,13 @@ vars:
     description: The Package name
     default: home
     prompt: What is your package name?
-  dependencies_path:
+  package_dependencies_name:
     type: string
-    description: The Package equatable path
-    default: 'package:equatable/equatable.dart'
-    prompt: What is your equatable path?
+    description: The Dependencies package name
+    default: 'core'
+    prompt: What is your dependencies package name?
+  has_cubit:
+    type: boolean
+    description: Feature cubit
+    default: false
+    prompt: cubit true or false?  
