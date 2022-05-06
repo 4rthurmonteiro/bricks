@@ -6,7 +6,7 @@ class {{#pascalCase}}{{name}}{{/pascalCase}}Mapper {
     final {{#camelCase}}{{name}}{{/camelCase}} = response.{{#camelCase}}{{name}}{{/camelCase}};
 
     return {{#pascalCase}}{{name}}{{/pascalCase}}(
-        dummy: {{#camelCase}}{{name}}{{/camelCase}}.dummmy,
+        dummy: {{#camelCase}}{{name}}{{/camelCase}}.dummy,
     );
   }
 }

@@ -3,6 +3,6 @@ import 'package:{{#snakeCase}}{{package_name}}{{/snakeCase}}/src/domain/entity/{
 abstract class {{#pascalCase}}{{name}}{{/pascalCase}}Repository {
 
   // If use dartz change here to Future<Either<Failure, {{#pascalCase}}{{name}}{{/pascalCase}}>> ...
-  Future<{{#pascalCase}}{{name}}{{/pascalCase}}> get{int {#pascalCase}}{{name}}{{/pascalCase}}({{#camelCase}}{{name}}{{/camelCase}}Id);
+  Future<{{#pascalCase}}{{name}}{{/pascalCase}}> get{{#pascalCase}}{{name}}{{/pascalCase}}(int {{#camelCase}}{{name}}{{/camelCase}}Id);
 }
 
