@@ -1,4 +1,4 @@
-import 'package:{{#snakeCase}}{{package_name}}{{/snakeCase}}/src/domain/entity/{{#snakeCase}}{{name}}{{/snakeCase}}.dart'
+import 'package:{{#snakeCase}}{{package_name}}{{/snakeCase}}/src/domain/entity/{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}.dart';
 
 abstract class {{#pascalCase}}{{name}}{{/pascalCase}}Repository {
 
