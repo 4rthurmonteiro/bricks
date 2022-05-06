@@ -1,4 +1,4 @@
-import 'package:{{package_name}}/src/data/model/{{#snakeCase}}{{name}}{{/snakeCase}}_response_model.dart';
+import 'package:{{package_name}}/src/data/model/{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}_response_model.dart';
 import 'package:{{package_name}}/src/domain/entity/{{#snakeCase}}{{name}}{{/snakeCase}}/{{#snakeCase}}{{name}}{{/snakeCase}}.dart';
 
 class {{#pascalCase}}{{name}}{{/pascalCase}}Mapper {

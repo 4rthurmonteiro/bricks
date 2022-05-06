@@ -10,7 +10,7 @@ class Get{{#pascalCase}}{{name}}{{/pascalCase}}Dto extends Equatable {
   @override
   List<Object?> get props => [
     dummy,
-  ]
+  ];
 
 }
 

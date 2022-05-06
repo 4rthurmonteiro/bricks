@@ -20,6 +20,6 @@ class {{#pascalCase}}{{name}}{{/pascalCase}}ResponseModel{
   });
 
   factory {{#pascalCase}}{{name}}{{/pascalCase}}ResponseModel.fromJson(Map<String, dynamic> json) => 
-      _${{#pascalCase}}{{name}}{{/pascalCase}}ResponseModelFromJson(json)''
+      _${{#pascalCase}}{{name}}{{/pascalCase}}ResponseModelFromJson(json);
 }
 
