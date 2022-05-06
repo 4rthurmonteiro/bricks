@@ -1,11 +1,17 @@
-Para usar o mason primeiro faça:
+Para usar os bricks seguir os seguintes passos:
 
-dart pub global activate mason
+Caso não tenha instalado o mason:
 
-Apóis isso:
+dart pub global activate mason_cli
 
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+Com o mason instalado:
 
-Após isso é só usar o comando ``` mason ``` que tem uma documentação bem completa.
+1. mason get
+2. mason make brick_name -o output path
 
+Exemplo:
+
+mason make clean_package_feature -o example/
+
+s
 
