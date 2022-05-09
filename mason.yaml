@@ -4,3 +4,5 @@ bricks:
     path: ./bricks/clean_arc
   clean_package_feature:
     path: ./bricks/clean_package_feature
+  hooks:
+    path: bricks/hooks
